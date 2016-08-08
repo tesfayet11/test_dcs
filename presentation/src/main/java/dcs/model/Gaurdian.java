@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Gaurdian {
 	
-	private long gaurdianId;
+	private Long gaurdianId;
 	private String firstName;
 	private String lastName;
 	private String email;

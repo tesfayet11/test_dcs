@@ -1,8 +1,13 @@
 package dcs.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Address {
 	
-	private long addressId;
+	@Id
+	private Long addressId;
 	private String email;
 	private String phoneNumber;
 	private String addressLine1;
